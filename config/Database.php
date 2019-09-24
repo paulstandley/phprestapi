@@ -1,10 +1,12 @@
 <?php 
+  include_once '../sec.php';
+
   class Database {
     // DB params
-    private $host = 'localhost';
-    private $db_name = 'phprestapi';
-    private $username = '';
-    private $password = '';
+    private $host = $hostsec;
+    private $db_name = $db_namesec;
+    private $username = $usernamesec;
+    private $password = $passwordsec;
     private $conn;
     
     // DB connection
