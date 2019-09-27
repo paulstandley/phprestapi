@@ -23,8 +23,8 @@
 
   $post->title = $data->title;
   $post->body = $data->body;
-  $post->aurthor = $data->aurthor;
-  $post->categroy_id = $data->categroy_id;
+  $post->author = $data->author;
+  $post->category_id = $data->category_id;
 
   // Create post
   if($post->create()) {

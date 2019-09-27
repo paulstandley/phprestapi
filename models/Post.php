@@ -83,7 +83,7 @@
         SET
           title = :title,
           body = :body,
-          aurthor = :aurthor,
+          author = :author,
           category_id = :category_id
       ';
 
