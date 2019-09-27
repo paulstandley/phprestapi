@@ -83,8 +83,8 @@
         SET
           title = :title,
           body = :body,
-          aurtor = :aurthor,
-          category_id = :caterory_id
+          aurthor = :aurthor,
+          category_id = :category_id
       ';
 
       // Prepare Statment
